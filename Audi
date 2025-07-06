@@ -1,0 +1,13 @@
+public class PrintName {
+    public static void main(String[] args) {
+        String name = "Sumanth";
+        int count = 5;
+
+        for (int i = 1; i <= count; i++) {
+            System.out.println(name);
+        }
+
+        System.out.println("Name printed " + count + " times.");
+    }
+}
+
